@@ -1,0 +1,297 @@
+{
+  "pages": [
+    // 出厂
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "出厂登记",
+        "autoBackButton": false
+      }
+    },
+    {
+      "path": "pages/rczz/index",
+      "style": {
+        "navigationBarTitleText": "选择入厂机构"
+      }
+    },
+    {
+      "path": "pages/ccmx/index",
+      "style": {
+        "navigationBarTitleText": "出厂明细",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "\ue840",
+                "fontSrc": "/static/iconfont/iconfont.ttf",
+                "fontSize": "50rpx",
+                "width": "30px",
+                "float": "right"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/tjwp/index",
+      "style": {
+        "navigationBarTitleText": "添加物品",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "\ue574",
+                "fontSrc": "/static/iconfont/iconfont.ttf",
+                "fontSize": "50rpx",
+                "width": "30px"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/wpxq/index",
+      "style": {
+        "navigationBarTitleText": "物品详情"
+      }
+    },
+    // 入厂
+    {
+      "path": "pages/rcdj/index",
+      "style": {
+        "navigationBarTitleText": "入厂登记",
+        "autoBackButton": false
+      }
+    },
+    {
+      "path": "pages/cczz/index",
+      "style": {
+        "navigationBarTitleText": "选择出厂机构"
+      }
+    },
+    {
+      "path": "pages/rcmx/index",
+      "style": {
+        "navigationBarTitleText": "入厂明细",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              // {
+              //   "text": "\ue936",
+              //   "fontSrc": "/static/iconfont/iconfont.ttf",
+              //   "fontSize": "50rpx",
+              //   "width": "50px",
+              //   "float": "left"
+              // },
+              {
+                "text": "\ue840",
+                "fontSrc": "/static/iconfont/iconfont.ttf",
+                "fontSize": "50rpx",
+                "width": "30px",
+                "float": "right"
+              }
+            ]
+          }
+        }
+      }
+    },
+    // 仓库
+    {
+      "path": "pages/ck/index",
+      "style": {
+        "navigationBarTitleText": "仓库物品列表",
+        "autoBackButton": false,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              // {
+              //   "text": "\ue616",
+              //   "fontSrc": "/static/iconfont/iconfont.ttf",
+              //   "fontSize": "50rpx",
+              //   "width": "30px"
+              // }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/cxwp/index",
+      "style": {
+        "navigationBarTitleText": "查询物品"
+      }
+    },
+    {
+      "path": "pages/kjtzlb/index",
+      "style": {
+        "navigationBarTitleText": "库间调整列表"
+      }
+    },
+    {
+      "path": "pages/kjtzmx/index",
+      "style": {
+        "navigationBarTitleText": "库间调整明细",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "\ue840",
+                "fontSrc": "/static/iconfont/iconfont.ttf",
+                "fontSize": "50rpx",
+                "width": "30px",
+                "float": "right"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/xzzrckwz/index",
+      "style": {
+        "navigationBarTitleText": "选择转入仓库位置"
+      }
+    },
+    // 检查
+    {
+      "path": "pages/zj/index",
+      "style": {
+        "navigationBarTitleText": "检查任务",
+        "autoBackButton": false
+      }
+    },
+    {
+      "path": "pages/jcqd/index",
+      "style": {
+        "navigationBarTitleText": "检查清单",
+        "autoBackButton": false
+      }
+    },
+    {
+      "path": "pages/jcdj/index",
+      "style": {
+        "navigationBarTitleText": "检查登记",
+        "autoBackButton": false
+      }
+    },
+    // 设置
+    {
+      "path": "pages/sz/index",
+      "style": {
+        "navigationBarTitleText": "设置",
+        "autoBackButton": false,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              // {
+              //   "text": "\ue647",
+              //   "fontSrc": "/static/iconfont/iconfont.ttf",
+              //   "fontSize": "50rpx",
+              //   "width": "30px",
+              //   "float": "right"
+              // }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/dclb/index",
+      "style": {
+        "navigationBarTitleText": "导出列表",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "\ue607",
+                "fontSrc": "/static/iconfont/iconfont.ttf",
+                "fontSize": "50rpx",
+                "width": "30px"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/drlb/index",
+      "style": {
+        "navigationBarTitleText": "导入列表",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "\ue608",
+                "fontSrc": "/static/iconfont/iconfont.ttf",
+                "fontSize": "50rpx",
+                "width": "30px"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "autoBackButton": true,
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    // "navigationBarTextStyle": "black",
+    "navigationBarTextStyle": "#ffffff",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#0b83de",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#7A7E83",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "出厂登记",
+        "iconPath": "static/ccmr.png",
+        "selectedIconPath": "static/ccdj.png"
+      },
+      {
+        "pagePath": "pages/rcdj/index",
+        "text": "入厂登记",
+        "iconPath": "static/rcmr.png",
+        "selectedIconPath": "static/rcdj.png"
+      },
+      {
+        "pagePath": "pages/zj/index",
+        "text": "质检",
+        "iconPath": "static/zj.png",
+        "selectedIconPath": "static/zjdj.png"
+      },
+      {
+        "pagePath": "pages/ck/index",
+        "text": "仓库",
+        "iconPath": "static/ckmr.png",
+        "selectedIconPath": "static/ckdj.png"
+      },
+      {
+        "pagePath": "pages/sz/index",
+        "text": "设置",
+        "iconPath": "static/szmr.png",
+        "selectedIconPath": "static/szdj.png"
+      }
+    ]
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+      "^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+      "^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
+    }
+  }
+}
